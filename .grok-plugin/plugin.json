@@ -1,0 +1,22 @@
+{
+  "name": "locker-agentic",
+  "displayName": "Locker Protocol Agentic",
+  "version": "2.0.2",
+  "description": "The agent trades. It holds nothing. Locker Protocol Agentic skills and session-start readiness for the lpa command: Hyperliquid perps, paper trading on the real order book, market regime, and keys that stay offline in Locker Vault.",
+  "author": {
+    "name": "Locker Protocol",
+    "url": "https://lockerprotocol.com"
+  },
+  "homepage": "https://github.com/locker-protocol/agent-skills",
+  "repository": "https://github.com/locker-protocol/agent-skills",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "locker protocol agentic",
+    "lpa cli",
+    "hyperliquid",
+    "perps",
+    "agent-wallet"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/grok-hooks.json"
+}

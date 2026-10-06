@@ -1,0 +1,29 @@
+{
+  "name": "locker-protocol",
+  "description": "Locker Protocol plugins for Grok Build: the agent wallet for Hyperliquid perps whose keys stay offline in Locker Vault.",
+  "owner": {
+    "name": "Locker Protocol",
+    "email": "contact@lockerprotocol.com"
+  },
+  "plugins": [
+    {
+      "name": "locker-agentic",
+      "source": "./",
+      "description": "The agent trades. It holds nothing. Locker Protocol Agentic skills and session-start readiness for the lpa command: Hyperliquid perps, paper trading on the real order book, market regime, and keys that stay offline in Locker Vault.",
+      "version": "2.0.2",
+      "category": "development",
+      "author": {
+        "name": "Locker Protocol",
+        "url": "https://lockerprotocol.com"
+      },
+      "homepage": "https://github.com/locker-protocol/agent-skills",
+      "keywords": [
+        "locker protocol agentic",
+        "lpa cli",
+        "hyperliquid",
+        "perps",
+        "agent-wallet"
+      ]
+    }
+  ]
+}

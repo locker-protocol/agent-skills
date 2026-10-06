@@ -1,0 +1,40 @@
+{
+  "name": "locker-protocol",
+  "owner": {
+    "name": "Locker Protocol",
+    "email": "contact@lockerprotocol.com"
+  },
+  "metadata": {
+    "description": "Locker Protocol plugins for Claude Code: the agent wallet for Hyperliquid perps whose keys stay offline in Locker Vault.",
+    "version": "2.0.2"
+  },
+  "plugins": [
+    {
+      "name": "locker-agentic",
+      "source": "./",
+      "description": "The agent trades. It holds nothing. Skills, session-start readiness and the MCP server of Locker Protocol Agentic for the lpa command: Hyperliquid perps, paper trading on the real order book, market regime, and keys that stay offline in Locker Vault.",
+      "version": "2.0.2",
+      "author": {
+        "name": "Locker Protocol",
+        "url": "https://lockerprotocol.com"
+      },
+      "homepage": "https://github.com/locker-protocol/agent-skills",
+      "repository": "https://github.com/locker-protocol/agent-skills",
+      "license": "SEE LICENSE IN LICENSE",
+      "keywords": [
+        "hyperliquid",
+        "perps",
+        "perpetuals",
+        "trading",
+        "agent-wallet",
+        "wallet",
+        "mcp",
+        "claude-code",
+        "air-gapped",
+        "self-custody",
+        "no-telemetry",
+        "locker-vault"
+      ]
+    }
+  ]
+}

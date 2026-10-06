@@ -1,0 +1,45 @@
+{
+  "name": "locker-agentic",
+  "version": "2.0.2",
+  "description": "The agent trades. It holds nothing. Locker Protocol Agentic skills and session-start readiness for the lpa command: Hyperliquid perps, paper trading on the real order book, market regime, and keys that stay offline in Locker Vault.",
+  "author": {
+    "name": "Locker Protocol",
+    "url": "https://lockerprotocol.com"
+  },
+  "homepage": "https://github.com/locker-protocol/agent-skills",
+  "repository": "https://github.com/locker-protocol/agent-skills",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "hyperliquid",
+    "perps",
+    "perpetuals",
+    "trading",
+    "agent-wallet",
+    "wallet",
+    "mcp",
+    "air-gapped",
+    "self-custody",
+    "no-telemetry",
+    "locker-vault"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/codex-hooks.json",
+  "interface": {
+    "displayName": "Locker Protocol Agentic",
+    "shortDescription": "lpa skills for Hyperliquid perps, with the keys offline in Locker Vault",
+    "longDescription": "The agent trades. It holds nothing. Skills for the lpa command of Locker Protocol Agentic: quote, open, modify and close Hyperliquid perps positions, trade on paper on the real order book, read a market's regime, check the local policy and the journal. The account's private key stays in Locker Vault, an offline app on a phone; this computer holds only an agent key that Hyperliquid refuses every withdrawal and every send (a deposit into a Hyperliquid vault is the one movement it accepts, and lpa never signs it), and every movement of funds is signed on the phone.",
+    "developerName": "Locker Protocol",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://lockerprotocol.com",
+    "privacyPolicyURL": "https://lockerprotocol.com/privacy-policy/",
+    "defaultPrompt": [
+      "Open a paper account with lpa and quote a long on BTC.",
+      "What is the regime of ETH on Hyperliquid right now?",
+      "Check my Locker Protocol Agentic setup with lpa doctor."
+    ],
+    "brandColor": "#6D28D9"
+  }
+}

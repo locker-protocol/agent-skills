@@ -1,0 +1,12 @@
+{
+  "name": "locker-agentic",
+  "version": "2.0.2",
+  "description": "The agent trades. It holds nothing. Hyperliquid perps for AI agents: quote, open, modify and close positions, trade on paper on the real order book, read a market's regime. The keys stay offline in Locker Vault.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "locker": {
+      "command": "npx",
+      "args": ["-y", "--ignore-scripts", "@locker-protocol/agent-wallet-hyperliquid-trader-mcp@latest"]
+    }
+  }
+}
